@@ -1,7 +1,7 @@
 import path from 'path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 
-module.exports = {
+export default {
   entry: path.resolve(__dirname, 'src', 'app.js'),
   output: {
     path: path.resolve(__dirname, 'dist'),
