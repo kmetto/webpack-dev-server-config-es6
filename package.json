@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --config webpack.config.babel.js",
     "serve": "webpack-dev-server --progress --config webpack.config.babel.js"
   },
   "author": "Konstantin Metto <met9127@gmail.com> (https://unicore.by)",
